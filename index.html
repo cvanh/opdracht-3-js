@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <title>Opdracht 3 - JSON</title>
+   <link rel="stylesheet" href="assets/css/style.css">
+   <script src="https://kit.fontawesome.com/2cc335b51d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+   <div class="container">
+      <h1 id="artist"></h1>
+      <h2 id="title"></h2>
+      <div class="tv">
+         <iframe width="525" height="394" id="videoplayer" allow="autoplay; encrypted-media;"></iframe>
+         <div class="button">
+            <a class="play blue left" onclick="videoID--;playvideo()">
+               <i class="fas fa-chevron-circle-left" aria-hidden="true"></i>
+            </a>
+            <a class="play red" onclick="playvideo()">
+               <i class="fas fa-power-off"></i>
+            </a>
+            <a class="play blue right" onclick="videoID++;playvideo()">
+               <i class="fas fa-chevron-circle-right" aria-hidden="true"></i>
+            </a>
+         </div>
+      </div>
+      <div class="remote">
+         <div>
+            <div class="ball">
+               <div class="num">
+                  1
+               </div>
+            </div>
+            <div class="text" onclick="one()">
+               4000° PLASMA PROTO-LIGHTSABER BUILD (RETRACTABLE BLADE!)
+            </div>
+         </div>
+         <br>
+         <br>
+      <div id="playlist">
+       
+
+      </div>
+      </div>
+   </div>
+
+
+
+   <script src="assets/js/script.js"></script>
+</body>
+
+</html>

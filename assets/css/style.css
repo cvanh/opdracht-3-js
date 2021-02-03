@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#artist, #title{
+    text-align: center;
+}
+
+.tv{
+    background-color: black;
+    display: inline-block;
+    margin-left: 33%;
+}
+
+.play{
+    font-size: 25px;
+}
+
+.left{
+    margin-left: 2%;
+}
+
+.right{
+    margin-left: 38%;
+}
+
+.red{
+    color: rgb(124, 0, 0);
+    margin-left: 40%;
+}
+
+.blue{
+    color: rgb(40, 40, 161);
+}
+
+.remote{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 27%;
+}
+
+.ball{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: grey;
+    display: block;
+    float: left;
+}
+
+.num{
+    margin-left: 8px;
+    margin-top: 4px;
+    float: left;
+    
+}
+
+.text{
+    float: left;
+}
